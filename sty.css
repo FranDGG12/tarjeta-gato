@@ -1,0 +1,31 @@
+body {
+  background-color: #e29c10;
+}
+
+.tarjeta {
+    font-family: 'Roboto', sans-serif;
+    max-width: 300px;   /*anchura maxima*/
+    margin: 20px;     /*margen*/
+    padding: 20px;    /*relleno*/
+    border-radius: 15px; /* Bordes redondeados */
+    background-color: #f9f9f9; /* Color de fondo */
+    box-shadow: blue 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, rgb(31, 193, 27) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px, rgb(255, 217, 19) 20px -20px, rgb(255, 255, 255) 30px -30px 0px -3px, rgb(255, 156, 85) 30px -30px, rgb(255, 255, 255) 40px -40px 0px -3px, rgb(255, 85, 85) 40px -40px;
+   /*sombra utilizada de https://getcssscan.com/css-box-shadow-examples */
+  }
+
+  .tarjeta img {
+    width: 100%;   /*ancho*/
+  }
+
+  .tarjeta h3 {
+    color: cadetblue;
+  }
+
+  .tarjeta p {
+    font-size: 16px;   /*tamaño de fuente*/
+    color: #e29c10;
+    line-height: 1.5;   /*altura de la linea*/
+  }
+
+
+
